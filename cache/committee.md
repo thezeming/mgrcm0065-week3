@@ -67,4 +67,4 @@ ORDER: BUY £30,000 of NVDA. This order adheres strictly to the Risk Manager's 3
 
 - [TO VERIFY] read each note against the table above and list here every number or factual claim that no row returns (instructor prep task 7).
 
-*Analyst role card: the second list is the answer, and the reason the trace is printed.*
+*For the Analyst role: the second list is the answer, and the reason the trace is printed.*
