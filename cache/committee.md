@@ -1,7 +1,7 @@
 # Investment committee transcript — Nvidia (NVDA)
 
-*Generated 2026-09-17 by gemini-3.5-flash-lite via build/build_cache.py; data as of 2026-09-16.*  
-## Shared evidence (Lab-3 tool outputs)
+*Generated 2026-09-22 by gemini-3.5-flash-lite via build/build_cache.py; data as of 2026-09-16.*  
+## Evidence table — the only data the agents saw
 
 Every agent below saw exactly this, and nothing else. Each row is tagged with the tool call that produced it.
 
@@ -63,8 +63,8 @@ ORDER: BUY £30,000 of NVDA. This order adheres strictly to the Risk Manager's 3
 - row 9: (constant) TODAY -> 2026-09-16 — no tool may return anything dated after this
 - row 10: (constant) mandate -> £1,000,000 paper notional, long-only, exactly one place_order call
 
-### Claims made without tool support (nothing in the table returns these)
+### Claims made without tool support — the Analyst's job
 
-- [TO VERIFY] read each note against the table above and list here every number or factual claim that no row returns (instructor prep task 7).
+Read each note against the table above and list every number or claim that no row returns, plus any control a note promises that no tool could carry out. The instructor has the answer for the debrief.
 
-*For the Analyst role: the second list is the answer, and the reason the trace is printed.*
+*For the Analyst role: the first list shows what checks out; the second is yours to write, and it is the reason the trace is printed.*
