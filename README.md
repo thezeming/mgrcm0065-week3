@@ -1,5 +1,7 @@
 # MGRCM0065 Week 3 — AI for Finance
 
+**Students: [open the notebook in Colab](https://colab.research.google.com/github/thezeming/mgrcm0065-week3/blob/main/MGRCM0065_W3_AI_for_Finance.ipynb)**, then *File → Save a copy in Drive*.
+
 Data and pre-recorded model answers for the Week 3 Colab notebook.
 
 This repo publishes `w3_bundle.json.gz`, next to the notebook: a single file packaging the code
