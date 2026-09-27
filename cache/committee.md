@@ -47,23 +47,6 @@ ORDER: BUY £30,000 of NVDA
 
 We are capturing strong fundamental and price momentum supported by record quarterly revenues while fully adhering to the risk manager's strict 3% maximum position limit within our £1,000,000 mandate. This sizing balances our exposure to generative-AI growth while properly containing the asset's 39.72% annualized volatility and downside drawdown risks.
 
-## Appendix — check the transcript against the table
+## Appendix — the Analyst's job
 
-### Numbers used (each one traces to a row above)
-
-- row 1: get_price("NVDA", "2026-09-23") -> close_usd = 225.51 USD (unadjusted close)
-- row 2: get_return("NVDA", "2026-08-24", "2026-09-23") -> return_pct = +8.29 % (one month, adjusted closes)
-- row 3: get_return("NVDA", "2026-06-24", "2026-09-23") -> return_pct = +13.45 % (three months, adjusted closes)
-- row 4: get_return("NVDA", "2025-09-23", "2026-09-23") -> return_pct = +26.69 % (twelve months, adjusted closes)
-- row 5: get_volatility("NVDA", 30) -> annualised_vol_pct = 39.72 % (as of 2026-09-23)
-- row 6: get_headlines("NVDA") -> 2 headline(s), date + text only, dated <= TODAY
-- row 7:   └ headline 1 (from get_headlines) -> 2023-05-24 — Nvidia guidance beats estimates on generative-AI demand
-- row 8:   └ headline 2 (from get_headlines) -> 2026-08-26 — Nvidia posts record $96 billion quarter, issues Q3 guidance
-- row 9: (constant) TODAY -> 2026-09-23 — no tool may return anything dated after this
-- row 10: (constant) mandate -> £1,000,000 paper notional, long-only, exactly one place_order call
-
-### Claims made without tool support — the Analyst's job
-
-Read each note against the table above and list every number or claim that no row returns, plus any control a note promises that no tool could carry out. The instructor has the answer for the debrief.
-
-*For the Analyst role: the first list shows what checks out; the second is yours to write, and it is the reason the trace is printed.*
+The evidence table above is exactly what the tools returned. The four notes are the model's own words. Read each note against the table and list every number or claim that no row returns, plus any control a note promises that no tool could carry out. The instructor has the answer for the debrief.
